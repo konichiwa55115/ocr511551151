@@ -6,4 +6,4 @@ from telegram.ext import CallbackContext
 def start(update:Update,context:CallbackContext):
     """Send a message when the command /start is issued."""
     first=update.effective_user.first_name
-    update.message.reply_text('Hi! '+str(first)+' \n\nI am an Optical Character Recognizer Bot. \n\nJust send a clear image to me and i will recognize the text in the image and send it as a message!',quote=True)
+    update.message.reply_text('السلام عليكم يا '+str(first)+' \n\nأنا بوت أقوم بتحويل الصور إلى نص . فقط أرسل لي الصور هنا . \n\n لبقية البوتات هنا https://t.me/ibnAlQyyim/1120 \n\n لدعم استمرار المشروع هنا http://paypal.me/kelectronic89 ',quote=True)
